@@ -1,6 +1,7 @@
 First Project: Affordable Housing in Brooklyn, New York.
 
 Programming Languages: Python (Libraries: pandas, matplotlib, numpy)
+
 Markup Language: HTML
 
 Resources: NYC Open Data, [Affordable Housing Production by Building](https://data.cityofnewyork.us/Housing-Development/Affordable-Housing-Production-by-Building/hg8x-zxpr)
