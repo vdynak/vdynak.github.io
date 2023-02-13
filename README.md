@@ -13,5 +13,5 @@ Practice of:
 --> Data Visualization
 --> First application of HTML to create a webpage
 
-View webpage [here](https://vdynak.github.io/)
+View webpage [HERE.](https://vdynak.github.io/)
 
