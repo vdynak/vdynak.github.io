@@ -11,16 +11,16 @@
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
+  <div class="bg-wrap">
+    <div class="bg-grid"></div>
+    <div class="bg-blur"></div>
+  </div>
+
   <header class="nav">
     <a class="brand" href="/">Victoria Dynak</a>
-    <nav>
-      <a href="#quicklinks">Quick Links</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a class="btn" href="" target="_blank" rel="noopener">Resume</a>
-    </nav>
+    <div class="nav-right">
+      <a class="btn btn-ghost" href="" target="_blank" rel="noopener">Resume</a>
+    </div>
   </header>
 
   <section class="hero">
@@ -38,10 +38,10 @@
         <h2>Quick Links</h2>
         <p class="muted">Find me around the internet.</p>
       </div>
-      <div class="links" style="justify-content:flex-start; gap:12px;">
-        <a class="btn" href="https://www.linkedin.com/in/victoria-dynak-b1a48825a/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://github.com/vdynak" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="" target="_blank" rel="noopener">Resume</a>
+      <div class="quicklinks">
+        <a class="chip" href="https://www.linkedin.com/in/victoria-dynak-b1a48825a/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="chip" href="https://github.com/vdynak" target="_blank" rel="noopener">GitHub</a>
+        <a class="chip" href="" target="_blank" rel="noopener">Resume</a>
       </div>
     </section>
 
@@ -51,16 +51,16 @@
         <h2>About Me</h2>
       </div>
       <p>
-        I’m Victoria Dynak, a Computer Science & Economics student at Hunter College who thrives on turning messy, high-dimensional data 
-        into models that actually work in the real world. My focus is on Machine Learning and Data Science, with a knack for pairing 
-        technical depth (feature engineering, model tuning, and evaluation) with clean, business-driven deliverables—clear metrics, 
+        I’m Victoria Dynak, a Computer Science & Economics student at Hunter College who thrives on turning messy, high-dimensional data
+        into models that actually work in the real world. My focus is on Machine Learning and Data Science, with a knack for pairing
+        technical depth (feature engineering, model tuning, and evaluation) with clean, business-driven deliverables—clear metrics,
         intuitive UX, and dashboards people actually use.
       </p>
       <p>
-        What I’m into: scalable ML pipelines, retrieval-augmented generation (RAG), model deployment, and designing 
-        front-ends that make complex insights instantly understandable.  
-        Fun fact: When I’m not building models, you’ll probably find me hiking in national parks, traveling to new cities for 
-        underground house/techno shows, or chasing sunsets in places I’ve never been.
+        What I’m into: scalable ML pipelines, retrieval-augmented generation (RAG), model deployment, and designing
+        front-ends that make complex insights instantly understandable.
+        Fun fact: When I’m not building models, you’ll probably find me hiking national parks, city-hopping to underground
+        house/techno shows, or chasing sunsets in places I’ve never been.
       </p>
     </section>
 
@@ -76,26 +76,26 @@
         <span>Swift</span><span>HTML/CSS</span><span>PHP</span><span>Assembly</span><span>SQL</span>
       </div>
 
-      <h3 style="margin-top:16px;">Databases</h3>
+      <h3 class="mt">Databases</h3>
       <div class="pillbox">
         <span>MySQL</span><span>PostgreSQL</span>
       </div>
 
-      <h3 style="margin-top:16px;">Data Science & Machine Learning</h3>
+      <h3 class="mt">Data Science & Machine Learning</h3>
       <div class="pillbox">
         <span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>LangChain</span>
         <span>RAG</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
         <span>Computer Vision (CNNs)</span>
       </div>
 
-      <h3 style="margin-top:16px;">Dev Tools & Platforms</h3>
+      <h3 class="mt">Dev Tools & Platforms</h3>
       <div class="pillbox">
         <span>AWS</span><span>Azure</span><span>Google Cloud</span><span>Git</span>
         <span>Node.js</span><span>Express</span><span>React</span><span>Next.js</span><span>Tailwind</span>
         <span>Django</span><span>Flask</span>
       </div>
 
-      <h3 style="margin-top:16px;">Other Tools</h3>
+      <h3 class="mt">Other Tools</h3>
       <div class="pillbox">
         <span>Figma</span><span>Power BI</span><span>Tableau</span><span>Trello</span>
       </div>
@@ -109,75 +109,75 @@
       </div>
 
       <div class="grid">
-        <article class="card">
+        <article class="card hover-pop">
           <div class="card-body">
             <h3>Nasdaq Entrepreneurial Center — Data Science & AI Product Intern</h3>
             <p class="muted">Aug 2025 – Present</p>
             <ul class="tags">
               <li>ML</li><li>Feature Engineering</li><li>Product</li><li>JS/CSS</li>
             </ul>
-            <p>
-              Supporting an AI recommendation engine to benchmark capital readiness using cleaned data from internal,
-              public, and partner sources. Building modular frontend components to surface prescriptive insights and
-              collaborating with CDFIs to validate outputs.
-            </p>
+            <ul class="bullets">
+              <li>Supporting an AI recommendation engine to benchmark capital readiness using internal, public, and partner datasets.</li>
+              <li>Engineering features and building modular UI to surface prescriptive insights.</li>
+              <li>Collaborating with CDFI partners to validate AI outputs against real-world use.</li>
+            </ul>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card hover-pop">
           <div class="card-body">
             <h3>Accenture — Summer Technology Architecture Analyst</h3>
             <p class="muted">June 2025 – Present</p>
             <ul class="tags">
               <li>SAP S/4HANA</li><li>Governance</li><li>GenAI</li><li>Azure OpenAI</li>
             </ul>
-            <p>
-              Identified SAP S/4HANA archiving targets across PR1/LP1/PL1 to reduce ERP load; aligned governance across
-              Apptio, FinOut, SNOW, and Horizons. Previously built a RAG LLM (Azure OpenAI + LangChain) with test harnesses,
-              automated QA data generation, and CI/CD monitoring (Blazor/OpenShift/GitLab).
-            </p>
+            <ul class="bullets">
+              <li>Identified S/4HANA archiving targets across PR1/LP1/PL1; reduced ERP load via strategic retention.</li>
+              <li>Aligned governance across Apptio, FinOut, SNOW, and Horizons to boost visibility.</li>
+              <li>Previously built a RAG LLM (Azure OpenAI + LangChain), automated QA data generation, and monitored CI/CD (Blazor/OpenShift/GitLab).</li>
+            </ul>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card hover-pop">
           <div class="card-body">
             <h3>KPMG — Machine Learning Intern</h3>
             <p class="muted">Aug 2023 – Jan 2024</p>
             <ul class="tags">
               <li>Python</li><li>Modeling</li><li>EDA</li>
             </ul>
-            <p>
-              Led a small team analyzing gender wage disparities using classical ML
-              (DT, GBDT, RF, Linear Regression); presented findings and recommendations to stakeholders.
-            </p>
+            <ul class="bullets">
+              <li>Led modeling on gender wage disparities using DT/GBDT/RF/Linear Regression.</li>
+              <li>Delivered findings and recommendations in stakeholder sessions.</li>
+            </ul>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card hover-pop">
           <div class="card-body">
             <h3>Unadat — Software Engineering Intern</h3>
             <p class="muted">June – Sept 2023</p>
             <ul class="tags">
               <li>HTML/CSS/JS</li><li>PHP</li><li>MySQL</li><li>GCP</li>
             </ul>
-            <p>
-              Shipped user-facing features (credit tracking, debt monitoring, goals), built responsive UI,
-              and integrated backend logic with PHP/MySQL; wrote unit/integration/E2E tests.
-            </p>
+            <ul class="bullets">
+              <li>Shipped user-facing features (credit tracking, debt monitoring, goals) with responsive UI.</li>
+              <li>Integrated backend logic with PHP/MySQL and wrote unit/integration/E2E tests.</li>
+            </ul>
           </div>
         </article>
 
-        <article class="card">
+        <article class="card hover-pop">
           <div class="card-body">
             <h3>Cornell Breakthrough Tech AI — ML Intern</h3>
             <p class="muted">May – Aug 2023</p>
             <ul class="tags">
               <li>Supervised ML</li><li>CNNs</li><li>Research</li>
             </ul>
-            <p>
-              Built models to predict Airbnb review scores and a CNN to classify 7.8M plant & fungal images
-              with the NY Botanical Garden; focused on trade-offs, interpretability, and performance.
-            </p>
+            <ul class="bullets">
+              <li>Predicted Airbnb review scores; explored trade-offs in complexity vs. interpretability.</li>
+              <li>Built a CNN for 7.8M plant & fungal images with the NY Botanical Garden.</li>
+            </ul>
           </div>
         </article>
       </div>
@@ -189,7 +189,7 @@
         <h2>Education</h2>
       </div>
       <p>
-        <strong>Macaulay Honors @ Hunter College</strong> — B.A. in Computer Science & Economics, Minor in Mathematics  
+        <strong>Macaulay Honors @ Hunter College</strong> — B.A. in Computer Science & Economics, Minor in Mathematics
         <br/>GPA: 3.8/4.0 • Expected Graduation: May 2026
       </p>
       <p class="muted">
@@ -206,8 +206,7 @@
         <h2>Resume</h2>
         <p class="muted">Prefer the PDF?</p>
       </div>
-      <a class="btn" href="" target="_blank" rel="noopener">Open Resume</a>
-      <p class="muted" style="margin-top:10px;">Or download from GitHub: <a href="" target="_blank" rel="noopener">resume.pdf</a></p>
+      <a class="btn btn-solid" href="" target="_blank" rel="noopener">Open Resume</a>
     </section>
   </main>
 
