@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Victoria Dynak — Portfolio</title>
+  <meta name="description" content="ML + data viz + product storytelling" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="/">Victoria Dynak</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a class="btn" href="LINK_TO_RESUME_PDF" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <img class="avatar" src="/assets/avatar.jpg" alt="Victoria headshot">
+      <h1>Building ML + data viz that actually tells a story.</h1>
+      <p class="tagline">CS & Econ @ Hunter (Macaulay) · AI / Data Viz · Intern @ Nasdaq EC</p>
+      <div class="links">
+        <a href="https://github.com/vdynak" target="_blank" rel="noopener">GitHub</a>
+        <a href="LINKEDIN_URL" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:YOUR_EMAIL">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- Featured Projects -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Featured Projects</h2>
+        <p class="muted">A few things I’m proud of.</p>
+      </div>
+
+      <div class="grid">
+        <!-- CARD -->
+        <article class="card">
+          <div class="card-body">
+            <h3>HouseWorld — House/Techno Data Story</h3>
+            <p>Interactive analysis of tempo, mood, and cultural trends; Python → D3.js site with Spotify/Apple metadata.</p>
+            <ul class="tags">
+              <li>Python</li><li>D3.js</li><li>Plotly</li><li>Spotify API</li>
+            </ul>
+          </div>
+          <footer class="card-cta">
+            <a href="LIVE_DEMO_LINK" target="_blank" rel="noopener">Live</a>
+            <a href="CODE_REPO_LINK" target="_blank" rel="noopener">Code</a>
+            <a href="/projects/houseworld.html">Case Study</a>
+          </footer>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Capital Readiness Engine</h3>
+            <p>Prototype scoring signals to match founders to CDFIs; HubSpot → S3/RDS → SageMaker, demo dashboard.</p>
+            <ul class="tags">
+              <li>AWS</li><li>SageMaker</li><li>Lambda</li><li>RDS</li>
+            </ul>
+          </div>
+          <footer class="card-cta">
+            <a href="DEMO_OR_DECK" target="_blank" rel="noopener">Overview</a>
+            <a href="REPO_OR_NOTION" target="_blank" rel="noopener">Docs</a>
+          </footer>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>iOS Travel Planner</h3>
+            <p>SwiftUI app that builds live itineraries using Google Places, OpenWeather, and TicketMaster.</p>
+            <ul class="tags">
+              <li>SwiftUI</li><li>Combine</li><li>Supabase</li>
+            </ul>
+          </div>
+          <footer class="card-cta">
+            <a href="APP_DEMO" target="_blank" rel="noopener">Demo</a>
+            <a href="REPO_LINK" target="_blank" rel="noopener">Code</a>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills</h2>
+      </div>
+      <div class="pillbox">
+        <span>Python</span><span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>PyTorch</span>
+        <span>LLMs</span><span>RAG</span><span>LangChain</span><span>SQL</span><span>D3.js</span>
+        <span>Plotly</span><span>Tableau</span><span>AWS</span><span>SageMaker</span><span>Git</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <p>
+        I’m a CS + Econ student at Hunter (Macaulay) focusing on ML, data visualization, and product storytelling.
+        Recent work: AI recommendation engine for capital readiness at Nasdaq EC; House/Techno data story; SwiftUI
+        travel app. I like clean visuals, reproducible analysis, and shipping fast.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <script>document.write(new Date().getFullYear())</script> Victoria Dynak</span>
+    <a href="https://github.com/vdynak/vdynak.github.io" target="_blank" rel="noopener">Source</a>
+  </footer>
+</body>
+</html>
