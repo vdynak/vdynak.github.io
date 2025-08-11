@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Victoria Dynak — Portfolio</title>
-  <meta name="description" content="ML + data viz + product storytelling" />
+  <meta name="description" content="Victoria Dynak's Portfolio" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -14,79 +14,54 @@
   <header class="nav">
     <a class="brand" href="/">Victoria Dynak</a>
     <nav>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
+      <a href="#quicklinks">Quick Links</a>
       <a href="#about">About</a>
-      <a class="btn" href="LINK_TO_RESUME_PDF" target="_blank" rel="noopener">Resume</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a class="btn" href="" target="_blank" rel="noopener">Resume</a>
     </nav>
   </header>
 
   <section class="hero">
     <div class="hero-inner">
       <img class="avatar" src="/assets/avatar.jpg" alt="Victoria headshot">
-      <h1>Building ML + data viz that actually tells a story.</h1>
-      <p class="tagline">CS & Econ @ Hunter (Macaulay) · AI / Data Viz · Intern @ Nasdaq EC</p>
-      <div class="links">
-        <a href="https://github.com/vdynak" target="_blank" rel="noopener">GitHub</a>
-        <a href="LINKEDIN_URL" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:YOUR_EMAIL">Email</a>
-      </div>
+      <h1>Victoria Dynak’s Portfolio</h1>
+      <p class="tagline">CS + Econ @ Hunter (Macaulay) • ML & Data Science • Product-minded and story-driven</p>
     </div>
   </section>
 
   <main>
-    <!-- Featured Projects -->
-    <section id="projects" class="section">
+    <!-- Quick Links -->
+    <section id="quicklinks" class="section">
       <div class="section-head">
-        <h2>Featured Projects</h2>
-        <p class="muted">A few things I’m proud of.</p>
+        <h2>Quick Links</h2>
+        <p class="muted">Find me around the internet.</p>
       </div>
-
-      <div class="grid">
-        <!-- CARD -->
-        <article class="card">
-          <div class="card-body">
-            <h3>HouseWorld — House/Techno Data Story</h3>
-            <p>Interactive analysis of tempo, mood, and cultural trends; Python → D3.js site with Spotify/Apple metadata.</p>
-            <ul class="tags">
-              <li>Python</li><li>D3.js</li><li>Plotly</li><li>Spotify API</li>
-            </ul>
-          </div>
-          <footer class="card-cta">
-            <a href="LIVE_DEMO_LINK" target="_blank" rel="noopener">Live</a>
-            <a href="CODE_REPO_LINK" target="_blank" rel="noopener">Code</a>
-            <a href="/projects/houseworld.html">Case Study</a>
-          </footer>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h3>Capital Readiness Engine</h3>
-            <p>Prototype scoring signals to match founders to CDFIs; HubSpot → S3/RDS → SageMaker, demo dashboard.</p>
-            <ul class="tags">
-              <li>AWS</li><li>SageMaker</li><li>Lambda</li><li>RDS</li>
-            </ul>
-          </div>
-          <footer class="card-cta">
-            <a href="DEMO_OR_DECK" target="_blank" rel="noopener">Overview</a>
-            <a href="REPO_OR_NOTION" target="_blank" rel="noopener">Docs</a>
-          </footer>
-        </article>
-
-        <article class="card">
-          <div class="card-body">
-            <h3>iOS Travel Planner</h3>
-            <p>SwiftUI app that builds live itineraries using Google Places, OpenWeather, and TicketMaster.</p>
-            <ul class="tags">
-              <li>SwiftUI</li><li>Combine</li><li>Supabase</li>
-            </ul>
-          </div>
-          <footer class="card-cta">
-            <a href="APP_DEMO" target="_blank" rel="noopener">Demo</a>
-            <a href="REPO_LINK" target="_blank" rel="noopener">Code</a>
-          </footer>
-        </article>
+      <div class="links" style="justify-content:flex-start; gap:12px;">
+        <a class="btn" href="https://www.linkedin.com/in/victoria-dynak-b1a48825a/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/vdynak" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="" target="_blank" rel="noopener">Resume</a>
       </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="section-head">
+        <h2>About Me</h2>
+      </div>
+      <p>
+        I’m Victoria Dynak, a Computer Science & Economics student at Hunter College who thrives on turning messy, high-dimensional data 
+        into models that actually work in the real world. My focus is on Machine Learning and Data Science, with a knack for pairing 
+        technical depth (feature engineering, model tuning, and evaluation) with clean, business-driven deliverables—clear metrics, 
+        intuitive UX, and dashboards people actually use.
+      </p>
+      <p>
+        What I’m into: scalable ML pipelines, retrieval-augmented generation (RAG), model deployment, and designing 
+        front-ends that make complex insights instantly understandable.  
+        Fun fact: When I’m not building models, you’ll probably find me hiking in national parks, traveling to new cities for 
+        underground house/techno shows, or chasing sunsets in places I’ve never been.
+      </p>
     </section>
 
     <!-- Skills -->
@@ -94,23 +69,145 @@
       <div class="section-head">
         <h2>Skills</h2>
       </div>
+
+      <h3>Languages</h3>
       <div class="pillbox">
-        <span>Python</span><span>Pandas</span><span>NumPy</span><span>scikit-learn</span><span>PyTorch</span>
-        <span>LLMs</span><span>RAG</span><span>LangChain</span><span>SQL</span><span>D3.js</span>
-        <span>Plotly</span><span>Tableau</span><span>AWS</span><span>SageMaker</span><span>Git</span>
+        <span>Python</span><span>C/C++</span><span>JavaScript</span><span>TypeScript</span>
+        <span>Swift</span><span>HTML/CSS</span><span>PHP</span><span>Assembly</span><span>SQL</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Databases</h3>
+      <div class="pillbox">
+        <span>MySQL</span><span>PostgreSQL</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Data Science & Machine Learning</h3>
+      <div class="pillbox">
+        <span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>LangChain</span>
+        <span>RAG</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span>
+        <span>Computer Vision (CNNs)</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Dev Tools & Platforms</h3>
+      <div class="pillbox">
+        <span>AWS</span><span>Azure</span><span>Google Cloud</span><span>Git</span>
+        <span>Node.js</span><span>Express</span><span>React</span><span>Next.js</span><span>Tailwind</span>
+        <span>Django</span><span>Flask</span>
+      </div>
+
+      <h3 style="margin-top:16px;">Other Tools</h3>
+      <div class="pillbox">
+        <span>Figma</span><span>Power BI</span><span>Tableau</span><span>Trello</span>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section about">
+    <!-- Experience -->
+    <section id="experience" class="section">
       <div class="section-head">
-        <h2>About</h2>
+        <h2>Experience</h2>
+        <p class="muted">Selected roles & impact.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-body">
+            <h3>Nasdaq Entrepreneurial Center — Data Science & AI Product Intern</h3>
+            <p class="muted">Aug 2025 – Present</p>
+            <ul class="tags">
+              <li>ML</li><li>Feature Engineering</li><li>Product</li><li>JS/CSS</li>
+            </ul>
+            <p>
+              Supporting an AI recommendation engine to benchmark capital readiness using cleaned data from internal,
+              public, and partner sources. Building modular frontend components to surface prescriptive insights and
+              collaborating with CDFIs to validate outputs.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Accenture — Summer Technology Architecture Analyst</h3>
+            <p class="muted">June 2025 – Present</p>
+            <ul class="tags">
+              <li>SAP S/4HANA</li><li>Governance</li><li>GenAI</li><li>Azure OpenAI</li>
+            </ul>
+            <p>
+              Identified SAP S/4HANA archiving targets across PR1/LP1/PL1 to reduce ERP load; aligned governance across
+              Apptio, FinOut, SNOW, and Horizons. Previously built a RAG LLM (Azure OpenAI + LangChain) with test harnesses,
+              automated QA data generation, and CI/CD monitoring (Blazor/OpenShift/GitLab).
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>KPMG — Machine Learning Intern</h3>
+            <p class="muted">Aug 2023 – Jan 2024</p>
+            <ul class="tags">
+              <li>Python</li><li>Modeling</li><li>EDA</li>
+            </ul>
+            <p>
+              Led a small team analyzing gender wage disparities using classical ML
+              (DT, GBDT, RF, Linear Regression); presented findings and recommendations to stakeholders.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Unadat — Software Engineering Intern</h3>
+            <p class="muted">June – Sept 2023</p>
+            <ul class="tags">
+              <li>HTML/CSS/JS</li><li>PHP</li><li>MySQL</li><li>GCP</li>
+            </ul>
+            <p>
+              Shipped user-facing features (credit tracking, debt monitoring, goals), built responsive UI,
+              and integrated backend logic with PHP/MySQL; wrote unit/integration/E2E tests.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Cornell Breakthrough Tech AI — ML Intern</h3>
+            <p class="muted">May – Aug 2023</p>
+            <ul class="tags">
+              <li>Supervised ML</li><li>CNNs</li><li>Research</li>
+            </ul>
+            <p>
+              Built models to predict Airbnb review scores and a CNN to classify 7.8M plant & fungal images
+              with the NY Botanical Garden; focused on trade-offs, interpretability, and performance.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="section-head">
+        <h2>Education</h2>
       </div>
       <p>
-        I’m a CS + Econ student at Hunter (Macaulay) focusing on ML, data visualization, and product storytelling.
-        Recent work: AI recommendation engine for capital readiness at Nasdaq EC; House/Techno data story; SwiftUI
-        travel app. I like clean visuals, reproducible analysis, and shipping fast.
+        <strong>Macaulay Honors @ Hunter College</strong> — B.A. in Computer Science & Economics, Minor in Mathematics  
+        <br/>GPA: 3.8/4.0 • Expected Graduation: May 2026
       </p>
+      <p class="muted">
+        Relevant Coursework: OOP, Data Structures & Algorithms I–III, Operating Systems, Computer Theory, Web & iOS Development,
+        Digital Product Management, Calculus I–II, Statistics, Matrix Algebra, Discrete Math.
+        <br/>Affiliations: McNulty Scholar (Phylogenetic Graph Research, Fall 2025), CUNY Tech Prep (Data Science & ML),
+        Breakthrough Tech AI, CodePath, Google x Basta Career Apprenticeship, Hunter CS Club.
+      </p>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="section-head">
+        <h2>Resume</h2>
+        <p class="muted">Prefer the PDF?</p>
+      </div>
+      <a class="btn" href="" target="_blank" rel="noopener">Open Resume</a>
+      <p class="muted" style="margin-top:10px;">Or download from GitHub: <a href="" target="_blank" rel="noopener">resume.pdf</a></p>
     </section>
   </main>
 
